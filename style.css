@@ -1,0 +1,159 @@
+/* 데스크탑 */
+body {
+  background-color: #f2e9e4;
+}
+
+#full {
+  border-radius: 10px;
+  background-color: white;
+  margin: 100px 350px;
+  overflow: hidden;
+}
+
+#box {
+  display: flex;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+  width: 480px;
+}
+#title1 {
+  color: gray;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 5px;
+}
+
+#title2 {
+  font-family: "Fraunces", serif;
+}
+#text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+#sale-price {
+  color: #458c6b;
+  font-family: "Fraunces", serif;
+  font-style: bold;
+  font-size: 40px;
+}
+#real-price {
+  font-size: 14px;
+  color: gray;
+  text-decoration: line-through;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  bottom: 5px;
+  left: 15px;
+}
+
+#cart {
+  margin-top: 20px;
+  background-color: #458c6b;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 15px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+#cart-image {
+  position: relative;
+  top: 3px;
+  right: 5px;
+}
+
+#cart:hover {
+  background-color: #1b402e;
+}
+
+/* 모바일 */
+@media (max-width: 375px) {
+  body {
+    background-color: #f2e9e4;
+  }
+
+  #full {
+    border-radius: 8px;
+    background-color: white;
+    margin: 30px 10px;
+    overflow: hidden;
+  }
+
+  #box {
+    display: flex;
+    flex-direction: column;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #text-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: auto;
+  }
+  #title1 {
+    color: gray;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
+  }
+
+  #title2 {
+    font-family: "Fraunces", serif;
+    font-size: 25px;
+    margin: 8px auto;
+  }
+  #text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+    line-height: 1.8;
+  }
+  #sale-price {
+    color: #458c6b;
+    font-family: "Fraunces", serif;
+    font-style: bold;
+    font-size: 25px;
+  }
+  #real-price {
+    font-size: 14px;
+    color: gray;
+    text-decoration: line-through;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    bottom: 5px;
+    left: 15px;
+  }
+
+  #cart {
+    margin-top: 10px;
+    background-color: #458c6b;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  #cart-image {
+    position: relative;
+    top: 3px;
+    right: 5px;
+  }
+
+  #cart:hover {
+    background-color: #1b402e;
+  }
+}
